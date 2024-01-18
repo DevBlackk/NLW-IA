@@ -27,7 +27,7 @@
     "vercel": "^32.7.2",
     "win-node-env": "^0.6.1",
     "ytdl-core": "4.10.0"
-  }
+  },
   "engine": {
     "node": "20.11.0"
   }
