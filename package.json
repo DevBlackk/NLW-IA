@@ -24,8 +24,6 @@
     "gh-pages": "^6.1.0",
     "node-wav": "^0.0.2",
     "transformers": "^3.1.0",
-    "vercel": "^32.7.2",
-    "win-node-env": "^0.6.1",
     "ytdl-core": "4.10.0"
   },
   "engine": {
