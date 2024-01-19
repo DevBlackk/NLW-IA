@@ -7,9 +7,10 @@ import { transcribe } from "./transcribe.js"
 import { summarize } from "./summarize.js"
 
 const app = express()
+app.use(cors(
+  { origin: "*" }
+))
 app.use(express.json())
-
-app.use(cors())
 
 app.get("/summary/:id", async (request, response) => {
   try {
