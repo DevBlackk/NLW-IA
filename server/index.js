@@ -9,7 +9,7 @@ import { summarize } from "./summarize.js"
 const app = express()
 app.use(express.json())
 const corsConfig = {
-  origin: '*',
+  origin: ['*'],
 }
 app.use(cors(corsConfig))
 
