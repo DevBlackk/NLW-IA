@@ -8,10 +8,8 @@ import { summarize } from "./summarize.js"
 
 const app = express()
 app.use(express.json())
-const corsConfig = {
-  origin: 'http://localhost:5173',
-}
-app.use(cors(corsConfig))
+
+app.use(cors())
 
 app.get("/summary/:id", async (request, response) => {
   try {
